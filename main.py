@@ -1,10 +1,10 @@
 # Code up Python basic test 100
-# 기초출력학기 6001 ~ 6008
+# [기초-출력] 6001 ~ 6008
 
 #6001
 print("Hello")
 #6002
-
+print("Hello World")
 #6003
 
 #6004
