@@ -2,8 +2,8 @@
 # [기초-실행구조] 6065 ~ 6076
 
 #6065
-a, b, c = map(int, input().split())
 def evennumber():
+    a, b, c = map(int, input().split())
     if a%2==0 :
         print(a)
 
