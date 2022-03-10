@@ -33,13 +33,17 @@ for i in range(n-1, -1, -1):
 n = int(input())
 a = input().split()
 
-min = 10001
-
-for i in range(n):
+for i in range(n) :
   a[i] = int(a[i])
-  if(a[i]<min):
+
+min = a[0]
+for i in range(0, n) :
+  if a[i] < min :
     min = a[i]
-print(min)
+
+print('출석 부를 갯수 n : ', n)
+print('n개중 랜덤 출석번호 : ', a)
+print('가장 작은 출석번호: ', min)
 
 #6095
 n = int(input())
